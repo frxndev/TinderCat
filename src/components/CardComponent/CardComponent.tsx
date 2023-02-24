@@ -35,7 +35,7 @@ const CardComponent: React.FC<CardComponentInterface> = ({ data }) => {
 
   return (
     <article className='flex w-full max-w-2xl  flex-col gap-6'>
-      <div className='w-full h-[600px] rounded-lg overflow-hidden'>
+      <div className='w-full h-[450px] rounded-lg overflow-hidden'>
         <picture>
           <source srcSet={url} />
           <img className='w-full h-full object-cover' src={url} alt={id} />
